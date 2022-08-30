@@ -12,6 +12,7 @@ import bg5 from '../../assets/bg5.jpg'
 import { AuthContext } from '../../context/auth';
 import { useRouter } from "next/router";
 import Link from 'next/link'
+
 function index() {
   const [email, setEmail] = React.useState('');
   const [password, setPassword] = React.useState('');
